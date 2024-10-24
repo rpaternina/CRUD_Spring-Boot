@@ -40,9 +40,9 @@ public class ProductController {
                 .orElseThrow(() -> new RuntimeException("No se encontro producto con id : " + id));
 
         //Lo que hacemos aqui es que el nuevo producto guarde los nuevos datos en el producto encontrado
+
         producto1.setNombre(producto.getNombre());
         producto1.setPrecio(producto.getPrecio());
-
         //Retornamos el producto actualizado
         return productoRepositorie.save(producto1);
     }
