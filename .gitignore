@@ -19,7 +19,7 @@ target/
 *.iml
 *.ipr
 *.env
-postgres
+*/postgres/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
