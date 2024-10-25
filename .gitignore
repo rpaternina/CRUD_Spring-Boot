@@ -18,8 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
-*.env
-*/postgres/
+#*.env
+#*/postgres/
 
 ### NetBeans ###
 /nbproject/private/
